@@ -26,9 +26,17 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import lpu_logo from "./company/lpu_logo.png";
+import cipherschool_logo from "./company/cipherschool_logo.png";
+import dav_school_logo from "./company/dav_school_logo.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import doctor_appointment from "./doctor_appointment.png";
+import banking_app from "./banking_app.png";
+import job_scheduler from "./job_scheduler.png";
 
 export {
   logo,
@@ -59,4 +67,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  lpu_logo,
+  cipherschool_logo,
+  dav_school_logo,
+  doctor_appointment,
+  banking_app,
+  job_scheduler,
 };

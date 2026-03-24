@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  lpu_logo,
+  cipherschool_logo,
+  dav_school_logo,
+  doctor_appointment,
+  banking_app,
+  job_scheduler,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Engineer",
+    icon: mobile,
+  },
+  {
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -73,16 +79,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -93,78 +91,45 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "B.Tech in Computer Science and Engineering",
+    company_name: "Lovely Professional University",
+    icon: "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Lovely_Professional_University_logo.png/120px-Lovely_Professional_University_logo.png",
+    iconBg: "#fff",
+    date: "Sep 2023 - Present",
+    points: [
+      "CGPA: 6.78",
+      "Participated in coding and innovation hackathons.",
+      "Attended various seminars, workshops, and webinars.",
+      "Focused on core subjects like Data Structures, Algorithms, and Object-Oriented Programming.",
+    ],
+
+  },
+  {
+    title: "Intermediate",
+    company_name: "DAV School",
+    icon: dav_school_logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Apr 2020 - Mar 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed intermediate education with 76.0%.",
+      "Developed a strong foundation in science and mathematics.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Matriculation",
+    company_name: "DAV School",
+    icon: dav_school_logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Apr 2018 - Mar 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed matriculation with 77%.",
     ],
   },
 ];
@@ -198,67 +163,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Doctor Appointment System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full-stack appointment management platform enabling patients to book, update, and track doctor consultations seamlessly. Built secure RESTful APIs using Spring Boot and Java.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "springboot",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: doctor_appointment,
+    source_code_link: "https://github.com/Avinasshshsh54321q",
   },
   {
-    name: "Job IT",
+    name: "Banking System App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A secure banking platform enabling users to manage accounts, view balances, perform transactions, and track activity history. Handled authentication, deposits, and API integration.",
     tags: [
       {
-        name: "react",
+        name: "springboot",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "java",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: banking_app,
+    source_code_link: "https://github.com/Avinasshshsh54321q",
   },
   {
-    name: "Trip Guide",
+    name: "Job & Event Scheduler",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built a Job & Event Scheduler using C++ and core DSA concepts, implementing an efficient event scheduler, planning a day, and time-management features.",
     tags: [
       {
-        name: "nextjs",
+        name: "c++",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "dsa",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "oop",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: job_scheduler,
+    source_code_link: "https://github.com/Avinasshshsh54321q",
   },
 ];
 
